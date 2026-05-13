@@ -6,9 +6,9 @@ let nomeJogador = "";
 function iniciarJogo() {
   const nomeJogador = document.getElementById("nome").value.trim();
   const escola = document.getElementById("escola").value.trim();
-  const cidade = document.getElementById("cidade").value.trim();
+  const idade = document.getElementById("idade").value.trim();
 
-  if ( nomeJogador == "" || escola == "" || cidade == ""){
+  if ( nomeJogador == "" || escola == "" || idade == ""){
     mostrarAlerta("Por favor, preencha todas as informações antes de começar.");
     return;
   }
@@ -112,7 +112,7 @@ function reiniciarJogo() {
 
   document.getElementById("nome").value = "";
   document.getElementById("escola").value = "";
-  document.getElementById("cidade").value = "";
+  document.getElementById("idade").value = "";
 }
 
 function embaralharPerguntas(lista) {
