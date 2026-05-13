@@ -1,0 +1,76 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  overflow: hidden;
+
+  text-transform: uppercase;
+}
+
+
+.info-jogo {
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin-bottom: 22px;
+
+  color: #444;
+
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+
+  .container {
+    max-width: 560px;
+
+    padding: 38px 36px;
+  }
+
+  .titulo {
+    font-size: 2.3rem;
+  }
+
+  .pergunta {
+    font-size: 1.5rem;
+  }
+
+  .opcoes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 12px;
+  }
+
+  .container {
+    padding: 26px 20px;
+  }
+
+  .titulo {
+    font-size: 1.7rem;
+  }
+
+  .botao-principal {
+    width: 100%;
+  }
+}
