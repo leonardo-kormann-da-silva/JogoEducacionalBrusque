@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Cidade</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <img class="imagem-fundo" src="Assets/fundo jogo.png" alt="Fundo da cidade">
+
+<body>
+  <main class="container">
+    <section id="telaInicial">
+      <h1 class="titulo">Bora Começar!</h1>
+      <p class="subtitulo">Já iremos começar, antes coloque:</p>
+
+      <input type="text" id="nome" placeholder="NOME" />
+      <input type="text" id="escola" placeholder="SUA ESCOLA" />
+      <input type="text" id="cidade" placeholder="SUA CIDADE" />
+
+      <button class="botao-principal" onclick="iniciarJogo()">COMEÇAR!</button>
+    </section>
+
+    <section id="telaPergunta" class="oculto">
+      <div class="info-jogo">
+        <span id="numeroPergunta">Pergunta 1 de 15</span>
+        <span id="pontuacao">Pontos: 0</span>
+      </div>
+
+      <h2 id="textoPergunta" class="pergunta"></h2>
+
+      <div id="opcoes" class="opcoes"></div>
+
+      <p id="mensagemResposta" class="mensagem-resposta"></p>
+
+      <button id="botaoProxima" class="oculto" onclick="proximaPergunta()">PRÓXIMA</button>
+    </section>
+
+    <section id="telaFinal" class="oculto">
+      <h1 class="titulo">Fim do Jogo!</h1>
+      <h2 id="resultadoPontos" class="resultado-pontos"></h2>
+      <p id="mensagemFinal" class="texto-final"></p>
+      <button onclick="reiniciarJogo()">JOGAR NOVAMENTE</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
