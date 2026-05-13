@@ -4,10 +4,13 @@ let pontos = 0;
 let nomeJogador = "";
 
 function iniciarJogo() {
-  nomeJogador = document.getElementById("nome").value.trim();
+  const nomeJogador = document.getElementById("nome").value.trim();
+  const escola = document.getElementById("escola").value.trim();
+  const cidade = document.getElementById("cidade").value.trim();
 
-  if (nomeJogador === "") {
-    nomeJogador = "Jogador";
+  if ( nomeJogador == "" || escola == "" || cidade == ""){
+    mostrarAlerta("Por favor, preencha todas as informações antes de começar.");
+    return;
   }
 
   pontos = 0;
@@ -119,4 +122,13 @@ function embaralharPerguntas(lista) {
   }
 
   return lista;
+}
+
+function mostrarAlerta(mensagem) {
+  document.getElementById("alertaMensagem").textContent = mensagem;
+  document.getElementById("alertaPersonalizado").classList.remove("oculto");
+}
+
+function fecharAlerta() {
+  document.getElementById("alertaPersonalizado").classList.add("oculto");
 }
