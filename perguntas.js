@@ -1,77 +1,107 @@
 const perguntasOriginais = [
   {
-    pergunta: "Qual é um lugar importante para aprender sobre a história da cidade?",
-    opcoes: ["Museu", "Mercado", "Cinema", "Padaria"],
-    correta: "Museu"
+    pergunta: "Brusque fica em qual estado do Brasil?",
+    opcoes: ["Santa Catarina", "Paraná", "Bahia", "Amazonas"],
+    correta: "Santa Catarina",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual espaço público costuma ter brinquedos e áreas verdes?",
-    opcoes: ["Parque", "Banco", "Posto de gasolina", "Farmácia"],
-    correta: "Parque"
+    pergunta: "O que as pessoas costumam usar em festas típicas de Brusque?",
+    opcoes: ["Trajes típicos alemães", "Roupa de mergulho", "Armadura medieval", "Fantasia de astronauta"],
+    correta: "Trajes típicos alemães",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Onde as pessoas podem atravessar um rio ou uma avenida com segurança?",
-    opcoes: ["Ponte", "Praça", "Escola", "Loja"],
-    correta: "Ponte"
+    pergunta: "Qual lugar de Brusque costuma ter árvores, bancos e espaço para brincar?",
+    opcoes: ["Praça", "Fábrica", "Aeroporto", "Garagem"],
+    correta: "Praça",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual lugar é usado para cuidar da saúde das pessoas?",
-    opcoes: ["Hospital", "Biblioteca", "Restaurante", "Estádio"],
-    correta: "Hospital"
+    pergunta: "Qual comida é bastante conhecida na cultura alemã presente em Brusque?",
+    opcoes: ["Cuca", "Sushi", "Taco", "Feijoada"],
+    correta: "Cuca",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Onde os alunos vão para estudar?",
-    opcoes: ["Escola", "Rodoviária", "Prefeitura", "Shopping"],
-    correta: "Escola"
+    pergunta: "Brusque é conhecida principalmente por qual atividade?",
+    opcoes: ["Indústria têxtil", "Criação de foguetes", "Pesca no oceano", "Exploração espacial"],
+    correta: "Indústria têxtil",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual local pode ter livros para leitura e pesquisa?",
-    opcoes: ["Biblioteca", "Aeroporto", "Oficina", "Supermercado"],
-    correta: "Biblioteca"
+    pergunta: "Onde as crianças vão para aprender e estudar?",
+    opcoes: ["Escola", "Cinema", "Padaria", "Mercado"],
+    correta: "Escola",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual lugar representa a administração da cidade?",
-    opcoes: ["Prefeitura", "Praia", "Zoológico", "Teatro"],
-    correta: "Prefeitura"
+    pergunta: "Qual meio de transporte é comum nas ruas de Brusque?",
+    opcoes: ["Ônibus", "Submarino", "Foguete", "Balão mágico"],
+    correta: "Ônibus",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual meio de transporte coletivo é comum em muitas cidades?",
-    opcoes: ["Ônibus", "Barco pirata", "Patinete mágico", "Foguete"],
-    correta: "Ônibus"
-  },
-  {
-    pergunta: "Qual atitude ajuda a manter a cidade limpa?",
-    opcoes: ["Jogar lixo na lixeira", "Pisar nas flores", "Rabiscar muros", "Jogar papel no chão"],
-    correta: "Jogar lixo na lixeira"
-  },
-  {
-    pergunta: "Onde as pessoas podem esperar o ônibus?",
-    opcoes: ["Ponto de ônibus", "Piscina", "Cozinha", "Sala de aula"],
-    correta: "Ponto de ônibus"
-  },
-  {
-    pergunta: "Qual lugar costuma ter apresentações, peças e espetáculos?",
-    opcoes: ["Teatro", "Hospital", "Posto de saúde", "Garagem"],
-    correta: "Teatro"
-  },
-  {
-    pergunta: "Qual espaço aberto costuma ter bancos, árvores e monumentos?",
-    opcoes: ["Praça", "Elevador", "Corredor", "Banheiro"],
-    correta: "Praça"
-  },
-  {
-    pergunta: "Qual profissional ajuda a organizar o trânsito?",
-    opcoes: ["Agente de trânsito", "Cozinheiro", "Pintor", "Músico"],
-    correta: "Agente de trânsito"
+pergunta: "Qual desses lugares ajuda a contar a história da cidade?",
+    opcoes: ["Museu", "Posto de gasolina", "Farmácia", "Garagem"],
+    correta: "Museu",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
     pergunta: "O que devemos fazer antes de atravessar a rua?",
-    opcoes: ["Olhar para os dois lados", "Correr sem olhar", "Fechar os olhos", "Parar no meio da rua"],
-    correta: "Olhar para os dois lados"
+    opcoes: ["Olhar para os dois lados", "Correr sem olhar", "Fechar os olhos", "Pular rapidamente"],
+    correta: "Olhar para os dois lados",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   },
   {
-    pergunta: "Qual lugar pode ser usado para comprar frutas, verduras e alimentos?",
-    opcoes: ["Feira", "Museu", "Escola", "Delegacia"],
-    correta: "Feira"
+    pergunta: "Qual rio passa pela cidade de Brusque?",
+    opcoes: ["Rio Itajaí-Mirim", "Rio Amazonas", "Rio São Francisco", "Rio Nilo"],
+    correta: "Rio Itajaí-Mirim",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
+  },
+  {
+    pergunta: "Qual desses lugares é usado para cuidar da saúde das pessoas?",
+    opcoes: ["Hospital", "Teatro", "Shopping", "Biblioteca"],
+    correta: "Hospital",
+    imagem:"imagens/hospital.jpg",
+    alt:"imagem festa"
+  },
+  {
+    pergunta: "Em Brusque, onde as pessoas podem comprar roupas e tecidos?",
+    opcoes: ["Lojas e shoppings", "Castelos", "Pirâmides", "Estações espaciais"],
+    correta: "Lojas e shoppings",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
+  },
+  {
+    pergunta: "Qual desses animais pode ser encontrado em parques e áreas verdes de Brusque?",
+    opcoes: ["Pássaros", "Camelos", "Pinguins gigantes", "Dragões"],
+    correta: "Pássaros",
+    imagem:"imagens/ponte.jpg",
+    alt:"imagem festa"
+  },
+  {
+    pergunta: "O que ajuda a manter Brusque limpa e bonita?",
+    opcoes: ["Jogar lixo na lixeira", "Jogar papel no chão", "Quebrar placas", "Pichar paredes"],
+    correta: "Jogar lixo na lixeira",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
+  },
+  {
+    pergunta: "Qual dessas opções representa algo cultural de Brusque?",
+    opcoes: ["Festas típicas e tradição alemã", "Pirâmides antigas", "Vulcões ativos", "Templos submarinos"],
+    correta: "Festas típicas e tradição alemã",
+    imagem:"Festas.jpg",
+    alt:"imagem festa"
   }
 ];
