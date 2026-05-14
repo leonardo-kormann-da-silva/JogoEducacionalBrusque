@@ -9,7 +9,7 @@ function iniciarJogo() {
   const idade = document.getElementById("idade").value.trim();
 
   if ( nomeJogador == "" || escola == "" || idade == ""){
-    mostrarAlerta("Por favor, preencha todas as informações antes de começar.");
+    mostrarAlerta("Por favor, preencha todas as informações da forma certa antes de começar.");
     return;
   }
 
@@ -26,28 +26,39 @@ function iniciarJogo() {
 }
 
 function mostrarPergunta() {
-  const perguntaSelecionada = perguntas[perguntaAtual];
+    const perguntaSelecionada = perguntas[perguntaAtual];
 
-  document.getElementById("numeroPergunta").textContent =
-    `Pergunta ${perguntaAtual + 1} de ${perguntas.length}`;
+    document.getElementById("numeroPergunta").textContent =
+        `Pergunta ${perguntaAtual + 1} de ${perguntas.length}`;
 
-  document.getElementById("pontuacao").textContent = `Pontos: ${pontos}`;
-  document.getElementById("textoPergunta").textContent = perguntaSelecionada.pergunta;
-  document.getElementById("mensagemResposta").textContent = "";
-  document.getElementById("botaoProxima").classList.add("oculto");
+    document.getElementById("pontuacao").textContent =
+        `Pontos: ${pontos}`;
 
-  const areaOpcoes = document.getElementById("opcoes");
-  areaOpcoes.innerHTML = "";
+    document.getElementById("textoPergunta").textContent =
+        perguntaSelecionada.pergunta;
 
-  const opcoesMisturadas = embaralharPerguntas([...perguntaSelecionada.opcoes]);
+    const imagemPergunta = document.getElementById("imagemPergunta");
 
-  opcoesMisturadas.forEach(opcao => {
-    const botao = document.createElement("button");
-    botao.classList.add("opcao");
-    botao.textContent = opcao;
-    botao.onclick = () => verificarResposta(botao, opcao);
-    areaOpcoes.appendChild(botao);
-  });
+    imagemPergunta.src = perguntaSelecionada.imagem;
+    imagemPergunta.alt = perguntaSelecionada.alt;
+
+    document.getElementById("mensagemResposta").textContent = "";
+    document.getElementById("botaoProxima").classList.add("oculto");
+
+    const areaOpcoes = document.getElementById("opcoes");
+    areaOpcoes.innerHTML = "";
+
+    const opcoesMisturadas = embaralharPerguntas([...perguntaSelecionada.opcoes]);
+
+    opcoesMisturadas.forEach(opcao => {
+        const botao = document.createElement("button");
+
+        botao.classList.add("opcao");
+        botao.textContent = opcao;
+        botao.onclick = () => verificarResposta(botao, opcao);
+
+        areaOpcoes.appendChild(botao);
+    });
 }
 
 function verificarResposta(botaoClicado, respostaEscolhida) {
