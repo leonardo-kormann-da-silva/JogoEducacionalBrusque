@@ -1,106 +1,106 @@
 const perguntasOriginais = [
   {
-    pergunta: "Brusque fica em qual estado do Brasil?",
-    opcoes: ["Santa Catarina", "Paraná", "Bahia", "Amazonas"],
-    correta: "Santa Catarina",
+    pergunta: "BRUSQUE FICA EM QUAL ESTADO DO BRASIL?",
+    opcoes: ["SANTA CATARINA", "PARANÁ", "BAHIA", "AMAZONAS"],
+    correta: "SANTA CATARINA",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "O que as pessoas costumam usar em festas típicas de Brusque?",
-    opcoes: ["Trajes típicos alemães", "Roupa de mergulho", "Armadura medieval", "Fantasia de astronauta"],
-    correta: "Trajes típicos alemães",
+    pergunta: "O QUE AS PESSOAS COSTUMAM USAR EM FESTAS TÍPICAS DE BRUSQUE?",
+    opcoes: ["TRAJES TÍPICOS ALEMÃES", "ROUPA DE MERGULHO", "ARMADURA MEDIEVAL", "FANTASIA DE ASTRONAUTA"],
+    correta: "TRAJES TÍPICOS ALEMÃES",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual lugar de Brusque costuma ter árvores, bancos e espaço para brincar?",
-    opcoes: ["Praça", "Fábrica", "Aeroporto", "Garagem"],
-    correta: "Praça",
+    pergunta: "QUAL LUGAR DE BRUSQUE COSTUMA TER ÁRVORES, BANCOS E ESPAÇO PARA BRINCAR?",
+    opcoes: ["PRAÇA", "FÁBRICA", "AEROPORTO", "GARAGEM"],
+    correta: "PRAÇA",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual comida é bastante conhecida na cultura alemã presente em Brusque?",
-    opcoes: ["Cuca", "Sushi", "Taco", "Feijoada"],
-    correta: "Cuca",
+    pergunta: "QUAL COMIDA É BASTANTE CONHECIDA NA CULTURA ALEMÃ PRESENTE EM BRUSQUE?",
+    opcoes: ["CUCA", "SUSHI", "TACO", "FEIJOADA"],
+    correta: "CUCA",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Brusque é conhecida principalmente por qual atividade?",
-    opcoes: ["Indústria têxtil", "Criação de foguetes", "Pesca no oceano", "Exploração espacial"],
-    correta: "Indústria têxtil",
+    pergunta: "BRUSQUE É CONHECIDA PRINCIPALMENTE POR QUAL ATIVIDADE?",
+    opcoes: ["INDÚSTRIA TÊXTIL", "CRIAÇÃO DE FOGUETES", "PESCA NO OCEANO", "EXPLORAÇÃO ESPACIAL"],
+    correta: "INDÚSTRIA TÊXTIL",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Onde as crianças vão para aprender e estudar?",
-    opcoes: ["Escola", "Cinema", "Padaria", "Mercado"],
-    correta: "Escola",
+    pergunta: "ONDE AS CRIANÇAS VÃO PARA APRENDER E ESTUDAR?",
+    opcoes: ["ESCOLA", "CINEMA", "PADARIA", "MERCADO"],
+    correta: "ESCOLA",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual meio de transporte é comum nas ruas de Brusque?",
-    opcoes: ["Ônibus", "Submarino", "Foguete", "Balão mágico"],
-    correta: "Ônibus",
+    pergunta: "QUAL MEIO DE TRANSPORTE É COMUM NAS RUAS DE BRUSQUE?",
+    opcoes: ["ÔNIBUS", "SUBMARINO", "FOGUETE", "BALÃO MÁGICO"],
+    correta: "ÔNIBUS",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-pergunta: "Qual desses lugares ajuda a contar a história da cidade?",
-    opcoes: ["Museu", "Posto de gasolina", "Farmácia", "Garagem"],
-    correta: "Museu",
+    pergunta: "QUAL DESSES LUGARES AJUDA A CONTAR A HISTÓRIA DA CIDADE?",
+    opcoes: ["MUSEU", "POSTO DE GASOLINA", "FARMÁCIA", "GARAGEM"],
+    correta: "MUSEU",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "O que devemos fazer antes de atravessar a rua?",
-    opcoes: ["Olhar para os dois lados", "Correr sem olhar", "Fechar os olhos", "Pular rapidamente"],
-    correta: "Olhar para os dois lados",
+    pergunta: "O QUE DEVEMOS FAZER ANTES DE ATRAVESSAR A RUA?",
+    opcoes: ["OLHAR PARA OS DOIS LADOS", "CORRER SEM OLHAR", "FECHAR OS OLHOS", "PULAR RAPIDAMENTE"],
+    correta: "OLHAR PARA OS DOIS LADOS",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual rio passa pela cidade de Brusque?",
-    opcoes: ["Rio Itajaí-Mirim", "Rio Amazonas", "Rio São Francisco", "Rio Nilo"],
-    correta: "Rio Itajaí-Mirim",
+    pergunta: "QUAL RIO PASSA PELA CIDADE DE BRUSQUE?",
+    opcoes: ["RIO ITAJAÍ-MIRIM", "RIO AMAZONAS", "RIO SÃO FRANCISCO", "RIO NILO"],
+    correta: "RIO ITAJAÍ-MIRIM",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual desses lugares é usado para cuidar da saúde das pessoas?",
-    opcoes: ["Hospital", "Teatro", "Shopping", "Biblioteca"],
-    correta: "Hospital",
+    pergunta: "QUAL DESSES LUGARES É USADO PARA CUIDAR DA SAÚDE DAS PESSOAS?",
+    opcoes: ["HOSPITAL", "TEATRO", "SHOPPING", "BIBLIOTECA"],
+    correta: "HOSPITAL",
     imagem:"imagens/hospital.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Em Brusque, onde as pessoas podem comprar roupas e tecidos?",
-    opcoes: ["Lojas e shoppings", "Castelos", "Pirâmides", "Estações espaciais"],
-    correta: "Lojas e shoppings",
+    pergunta: "EM BRUSQUE, ONDE AS PESSOAS PODEM COMPRAR ROUPAS E TECIDOS?",
+    opcoes: ["LOJAS E SHOPPINGS", "CASTELOS", "PIRÂMIDES", "ESTAÇÕES ESPACIAIS"],
+    correta: "LOJAS E SHOPPINGS",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual desses animais pode ser encontrado em parques e áreas verdes de Brusque?",
-    opcoes: ["Pássaros", "Camelos", "Pinguins gigantes", "Dragões"],
-    correta: "Pássaros",
+    pergunta: "QUAL DESSES ANIMAIS PODE SER ENCONTRADO EM PARQUES E ÁREAS VERDES DE BRUSQUE?",
+    opcoes: ["PÁSSAROS", "CAMELOS", "PINGUINS GIGANTES", "DRAGÕES"],
+    correta: "PÁSSAROS",
     imagem:"imagens/ponte.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "O que ajuda a manter Brusque limpa e bonita?",
-    opcoes: ["Jogar lixo na lixeira", "Jogar papel no chão", "Quebrar placas", "Pichar paredes"],
-    correta: "Jogar lixo na lixeira",
+    pergunta: "O QUE AJUDA A MANTER BRUSQUE LIMPA E BONITA?",
+    opcoes: ["JOGAR LIXO NA LIXEIRA", "JOGAR PAPEL NO CHÃO", "QUEBRAR PLACAS", "PICHAR PAREDES"],
+    correta: "JOGAR LIXO NA LIXEIRA",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   },
   {
-    pergunta: "Qual dessas opções representa algo cultural de Brusque?",
-    opcoes: ["Festas típicas e tradição alemã", "Pirâmides antigas", "Vulcões ativos", "Templos submarinos"],
-    correta: "Festas típicas e tradição alemã",
+    pergunta: "QUAL DESSES OPÇÕES REPRESENTA ALGO CULTURAL DE BRUSQUE?",
+    opcoes: ["FESTAS TÍPICAS E TRADIÇÃO ALEMÃ", "PIRÂMIDES ANTIGAS", "VULCÕES ATIVOS", "TEMPLOS SUBMARINOS"],
+    correta: "FESTAS TÍPICAS E TRADIÇÃO ALEMÃ",
     imagem:"Festas.jpg",
     alt:"imagem festa"
   }
